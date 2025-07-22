@@ -1,0 +1,18 @@
+﻿using PK.BuildingBlocks.Infrastructure;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Domain.Entities
+{
+    [Table("Departments", Schema = "DS")]
+    public class Departments : BaseEntity
+    {
+
+        public string Name { get; set; }
+
+        public string Code { get; set; }
+
+        public string Descriptions { get; set; }
+
+        public bool Active { get; set; }
+    }
+}
