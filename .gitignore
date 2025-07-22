@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Test/bin/Debug/net9.0
+/ServiceInterface/obj
+/Infrastructure/obj
+/Domain/obj
+/DB/Database/obj/Debug
+/ApplicationServices/obj
+/API/obj
+/.vs/ProjectEvaluation
+/.vs/DotNet9Demo/v17
+/.vs/DemoSolutionNet9/v17
+/.vs/DemoSolutionNet9/DesignTimeBuild
+/.vs/DemoSolutionNet9/CopilotIndices/17.14.827.52834
+/.vs
+/Test/obj
